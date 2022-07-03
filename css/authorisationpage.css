@@ -1,0 +1,132 @@
+.authorisation, .authorisation-dark{
+    display: flex;
+    height: 800px;
+}
+.authorisation-dark{
+    background-color: #1c2733;
+}
+.authorisation__logo{
+    width: 40%;
+    background-color: #1c1c28;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.authorisation__logo .header-logo{
+   margin: 17px 0;
+}
+.authorisation__form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.authorisation__form-dark .form__authorisation a{
+    color: #e7e7e7;
+}
+.authorisation__form h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: rgba(6,6,20,.96);
+    margin-bottom: 20px;
+}
+.authorisation-dark h3{
+    color: #e7e7e7;
+}
+.form__authorisation {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    margin-top: 10px;
+}
+.form__authorisation a{
+    color: #1c1c28;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.authorisation-dark .form__authorisation a{
+    color: #e7e7e7;
+}
+
+.form__input{
+    outline: none;
+    padding: 0 40px;
+    background: #ffffff;
+    width: 330px; 
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid rgba(28,28,40,.16); ;   
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgba(6,6,20,.88);
+}
+
+.authorisation-dark .form__input{
+    color: #e7e7e7;
+    background-color: transparent;
+    border: 1px solid;
+}
+.button__black{
+    width: 330px;
+    height: 57px;
+    background-color: #1c1c28;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.authorisation-dark .button__black{
+    background-color: rgb(15, 175, 241);
+    border: none;
+}
+.authorisation__with{
+    width: 335px;
+    margin-top: 15px;
+}
+.authorisation__with p{
+    margin-bottom: 10px;
+}
+.authorisation-dark .authorisation__with p{
+    margin-bottom: 10px;
+    color: #e7e7e7;
+}
+.authorisation__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button__authorisation-with{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+}
+.authorisation-dark .button__authorisation-with{
+   background-color: #363636;
+}
+.make__account{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1c1c28;
+}
+.authorisation-dark .make__account{
+    color: #e7e7e7;
+}
+
+
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/

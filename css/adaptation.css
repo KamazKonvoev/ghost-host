@@ -1,0 +1,517 @@
+
+@media(max-width: 1285px){
+    .authorisation__logo > img{
+        height: 62%;
+    }
+}
+@media(max-width: 1211px){
+    .authorisation__logo > img{
+        height: 62%;
+    }
+    .registration__inner {
+        width: 87%;
+    }
+}
+@media(max-width: 1175px){
+    .container{
+        width: 810px;
+    }
+    .packages__cards-outer, .packages__dark .packages__cards-outer{ 
+        flex-wrap: wrap;
+    }
+    .packages__card, .packages__dark .packages__card {
+        width: 312px;
+        margin-bottom: 30px;
+    }
+    .packages, .packages__dark {
+        height: 1560px;
+    }
+}
+@media(max-width: 1175px){
+    .authorisation__logo > img{
+        height: 53%;
+    }
+}
+@media(max-width: 1057px){
+    .hanburger-lines{
+        display: flex;
+    }
+    .header__inner{
+        display: none;
+    }
+    .menu-items{
+        display: flex;
+    }
+    .scroll-clr .container{
+        display: none;
+    }
+    .main__footer .header__inner{
+        display: flex;
+    }
+    .hamburger-menu{
+        display: flex;
+        background-color: black;
+    }
+    .characters__inner{
+        flex-wrap: wrap;
+    }
+    .characters, .characters__dark {
+        height: 480px;
+    }
+    .character__card {
+        margin-bottom: 39px;
+        width: 320px;
+    }
+}
+@media(max-width: 1021px){
+    .team__information p:nth-child(1) {
+        font-size: 13px;
+        text-align: center;
+        width: 101px;
+    }
+    .team__information p:nth-child(2) {
+        font-size: 13px;
+    }
+    .characters__inner{
+        flex-wrap: wrap;
+    }
+    .team__card {
+        margin: 0 26px;
+    }
+}
+@media(max-width: 1000px){
+    .authorisation__logo > img{
+        height: 47%;
+    }
+}
+@media(max-width: 935px) {
+    .salute__description h2 {
+        font-size: 47px;
+        margin-bottom: 35px;
+    }
+    .salute__description p {
+        font-size: 27px;
+        margin: 10px;
+        line-height: 36px;
+    }
+}
+@media(max-width: 905px){
+    .team__card{
+        margin: 0 13px;
+    }
+    .domain__form-inner input {
+        width: 500px;
+    }
+    .domain__text {
+        width: 646px;
+    }
+}
+@media(max-width: 877px){
+    .register__form{
+        width: 70%;
+    }
+}
+@media(max-width: 831px){
+    .team__card{
+        margin: 0 13px;
+    }
+}
+@media(max-width: 813px){
+    .authorisation__logo > img{
+        height: 42%;
+    }
+}
+@media(max-width: 807px){
+    .about .container, .about-dark .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__information-inner {
+        border-bottom: 1px dashed #ddd;
+        border-right: none;
+        margin-bottom: 30px;
+    }
+    .about__information-inner p {
+        height: 140px;
+    }
+    .team__card {
+        margin: 0 17px;
+    }
+    .container{
+        width: 650px;
+    }
+}
+@media(max-width:781px) {
+    .packages, .packages__dark {
+        min-height: 2895px;
+    }
+    .characters, .characters__dark {
+        height: 880px;
+    }   
+}
+@media(max-width:733px) {
+    .packages, .packages__dark {
+        min-height: 2895px;
+    }
+    .characters, .characters__dark {
+        height: 880px;
+    }   
+    .authorisation__form h3 {
+        font-size: 22px;
+    }
+    .form__authorisation {
+        width: 59%;
+    }
+    .button__black {
+        width: 100%;
+    }
+    .form__input {
+        width: 100%;
+    }
+    .authorisation__logo > img {
+        height: 36%;
+    }
+}
+@media(max-width: 713px){
+    .carousel__item {
+        min-width: 661px;
+    }
+    .salute__description p {
+        line-height: 43px;
+        width: 516px;
+    }
+}
+@media(max-width: 711px){
+    .domain__form-inner input {
+        width: 400px;
+    }
+
+}
+@media(max-width: 649px){
+    .authorisation__with{
+        text-align: center;
+    }
+    .authorisation__buttons {
+        justify-content: space-around;
+    }
+    .button__authorisation-with {
+        width: 31%;
+    }
+    .authorisation__with {
+        width: 59%;
+    }
+
+}
+@media(max-width: 633px){
+    .packages__dark, .packages {
+        height: 2960px;
+    }
+    .domain__text {
+        width: 526px;
+    }
+    .container{
+        width: 510px;
+    }
+    .price__list {
+        height: 209px;
+    }
+    .domain__form-dark .price__list-up li, .price__list-down li {
+        font-size: 12px;
+    }
+    .domain__form-inner input {
+        width: 291px;
+    }
+    .characters, .characters__dark {
+        min-height: 880px;
+    }
+    .carousel__item p {
+        width: 255px;
+    }
+    .carousel__item {
+        min-width: 522px;
+    }
+    .main__footer .header-logo{
+        margin-right: 48px;
+    }
+    .header__inner ul, .header__inner-scroll ul {
+        font-size: 13px;
+    }
+    .carousel{
+        padding: 0 10px;
+    }
+    .character__card {
+        margin-bottom: 62px;
+        width: 320px;
+    }
+    .authorisation__logo > img {
+        height: 29%;
+    }
+}
+@media(max-width: 591px){
+    .carousel__item {
+        min-width: 462px;
+    }
+    .carousel__item p {
+        width: 255px;
+        font-size: 16px;
+    }
+    .about__information {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 408px;
+    }
+    .footer__description {
+        width: 446px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 23px;
+    }
+    footer{
+        min-height: 400px;
+    }
+    .footer__pages-inner {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 535px){
+    .authorisation, .authorisation-dark {
+        display: flex;
+        height: 1040px;
+        flex-direction: column;
+    }
+    .authorisation__logo {
+        width: 100%;
+    }
+    .authorisation__logo {
+        height: 200px;
+    }
+    .authorisation__logo .header-logo{
+        display: none;
+    }
+    .authorisation__logo > img {
+        height: 98%;
+    }
+    .authorisation__form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        height: 100%;
+    }
+}
+@media(max-width: 513px){
+    .domain__text {
+        width: 400px;
+    }
+    .domain__text {
+        width: 400px;
+    }
+    .container{
+        width: 470px;
+    }
+    
+    .domain__form-dark .domain__text {
+        font-size: 14px;
+    }
+    .register__authorisation a, .register__registration a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: #ffffff;
+                text-decoration: none;
+        transition: .3s ease-in-out;
+    }
+}
+@media(max-width: 499px){
+    .salute__description p {
+        line-height: 38px;
+        width: 83%;
+    }
+    .salute__description p {
+        font-size: 19px;
+    }
+    .salute__inner{
+        height: 644px;
+    }
+}
+@media(max-width: 485px){
+    .carousel__item p {
+        width: 201px;
+        font-size: 14px;
+    }
+    .carousel__item {
+        min-width: 385px;
+    }
+    .registration__form form button{
+        font-size: 16px;
+        height: 40px;
+    }
+}
+@media(max-width: 473px){
+    .carousel__item p {
+        font-size: 11px;
+    }
+    .carousel__item {
+        min-width: 100%;
+    }
+}
+@media (max-width: 479px){
+    .salute__inner{
+        right: -4px;
+        bottom: 12px;
+    }
+    .domain__form-inner input {
+        width: 200px;
+    }
+    .domain__text {
+        width: 348px;
+    }
+    .domain__form-dark .domain__title {
+        font-size: 19px;
+        color: wheat;
+        margin-top: 80px;
+        margin-bottom: 13px;
+    }
+    .container{
+        width: 393px;
+    }
+    .main__footer .header-logo {
+        margin-right: 12px;
+    }
+    footer img {
+        height: 15px;
+    }
+    .select {
+        border-bottom: 1px solid #ffffff;
+        height: 88px;
+        padding-top: 36px;
+    }
+    .header__inner ul, .header__inner-scroll ul {
+        font-size: 11px;
+    }
+    .price__list {
+        width: 92%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid #a2a2a2;
+        margin-top: 60px;
+        padding: 10px;
+    }
+
+
+    .footer__menu{
+        margin-bottom: 23px;
+    }
+    .contacts {
+        height: 98px;
+    }
+    footer {
+        min-height: 516px;
+    }
+    .footer__poloska {
+        display: none;
+    }
+}
+@media (max-width: 469px){
+    .carousel__item p {
+        width: 155px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 424px){
+    .about__information-inner {
+        width: 317px;
+        border-right: none;
+    }
+    .about__information-inner p{
+        font-size: 12px;
+    }
+    .about__information-inner h3 {
+        font-size: 28px;
+        color: #565656;
+        margin-bottom: 10px;
+    }
+    .registration__form form button{
+        font-size: 11px;
+    }
+    .registration__form form input{
+        font-size: 14px;
+        padding: 0 14px;
+    }
+    .about__team {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about .container, .about-dark .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .container, .about-dark .container {
+        height: 827px;
+        display: flex;
+    }
+    .team__card {
+        /* margin: 22px 0; */
+        margin-bottom: 31px;
+    }
+    .container{
+        width: 310px;
+    }
+    footer .container{
+        padding-top: 33px;
+    }
+    footer .main__footer{
+        position: relative;
+    }
+    footer .header-logo{
+        position: absolute;
+        left: 0;
+        margin: 0;
+    }
+    .header__inner ul{
+        margin: 0;
+    }
+    .menu__btn {
+        top: 44px;
+    }
+    footer {
+        min-height: 568px;
+    }
+    .carousel__item p {
+        width: 155px;
+        font-size: 14px;
+    }
+    .price__list ul li:last-child{
+        padding-left: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 415px){
+    .packages__card, .packages__dark .packages__card {
+        width: 279px;
+        margin-bottom: 30px;
+    }
+    .about__information {
+        width: 350px;
+    }
+    .square p {
+        padding: 10px 16px;
+    }
+    .square img {
+        right: -5px;
+    }
+    .carousel__item p {
+        width: 132px;
+        font-size: 14px;
+    }
+}

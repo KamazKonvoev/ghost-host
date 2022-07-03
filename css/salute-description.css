@@ -1,0 +1,15 @@
+.salute__inner{
+    background-color: rgba(0, 0, 0, 0.40);
+    height: 705px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 250px 0px;
+}
+.salute{
+    background-image: url('../image/homebg.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}

@@ -150,6 +150,12 @@
     .characters, .characters__dark {
         height: 880px;
     }   
+    .modal{
+        width: 32rem;
+        padding: 1rem 2rem;
+        height: 480px;
+        margin-top: 102px;
+    }
 }
 @media(max-width:733px) {
     .packages, .packages__dark {
@@ -186,6 +192,12 @@
 @media(max-width: 711px){
     .domain__form-inner input {
         width: 400px;
+    }
+    .modal__title {
+        font-size: 25px;
+        margin-top: 27px;
+        margin-right: 1p;
+        margin-right: 56px;
     }
 
 }
@@ -275,6 +287,16 @@
     }
     .footer__pages-inner {
         flex-wrap: wrap;
+    }
+    .modal__text {
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+    font-size: 17px;
+    line-height: 23px;
+    color: white;
+    }
+    .modal {
+        width: 21rem;
     }
 }
 @media(max-width: 535px){

@@ -16,7 +16,7 @@ const app={
 <header class="header" :style="headerZero">
     <v-header :current-page="currentPage" @selectpage="selectPage($event)" :scroll-number="150" v-if="currentPage=== 'main'" :login-user="loginUser" @logout="logOut"/>
     <v-header :current-page="currentPage" @selectpage="selectPage($event)" :scroll-number="-1" v-if="currentPage !== 'main'" :login-user="loginUser" @logout="logOut"/>
-    <v-burger :current-page="currentPage" @selectpage="selectPage($event)" @logout="logOut"/>
+    <v-burger :current-page="currentPage" @selectpage="selectPage($event)" @logout="logOut" :login-user="loginUser"/>
 </header>
 
 <section v-if="currentPage === 'main'">
